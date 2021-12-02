@@ -8,7 +8,7 @@ Scanner sc=new Scanner(System.in);
 int target=100;
 
 for(int i=0;i<target;i++){
-System.out.println("Enter the turns:");
+System.out.println("Enter points scored");
 turns+=sc.nextInt();
 count++;
 if(turns>=100){
