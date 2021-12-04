@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 
 public static void main(String[] args) {
-// TODO Auto-generated method stub
+// 
   Address address=new Address();
   Scanner sc=new Scanner(System.in);
   System.out.println("Enter Address Line 1");
