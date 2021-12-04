@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 
 public static void main(String[] args) {
-// 
+
   Address address=new Address();
   Scanner sc=new Scanner(System.in);
   System.out.println("Enter Address Line 1");
