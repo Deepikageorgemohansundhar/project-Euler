@@ -1,0 +1,38 @@
+
+import java.util.Scanner;
+
+public class Highlydivisibletriangularnumber
+{
+   public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the limit for triangular number");
+int limit=sc.nextInt();
+int sum=0;
+int count=0;
+for(int i=1;i<=limit;i++)
+{
+
+sum+=i;
+}
+System.out.println("The triangular number for"+" "+limit+" "+"is"+" "+sum);
+        for(int i=1;i<=sum;i++)
+        {
+        if(sum%i==0)
+        {
+        System.out.println(i);
+        count++;
+        }
+        }
+        if(count>=500)
+        {
+        System.out.println("Number of divisors for"+" "+sum+" "+"is"+" "+count);
+                }
+       
+     }
+ 
+
+}
+
+
+
